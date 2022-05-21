@@ -1,0 +1,10 @@
+li {
+  margin: 0 2rem !important;
+}
+li:hover {
+  cursor: pointer;
+}
+
+span{
+    margin: 4rem;
+}
