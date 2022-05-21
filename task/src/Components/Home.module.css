@@ -1,0 +1,36 @@
+h1 {
+  font: normal normal bold 3.5rem Poppins;
+  opacity: 1;
+}
+
+.name_input {
+  border: none;
+  border-bottom: 1px solid #707070;
+  appearance: none;
+  outline: none;
+  background: transparent;
+  margin: 1rem;
+  min-width: 220px;
+  color: white;
+}
+
+.email_input{
+    height: 4rem;
+    width: 394px;
+    border-radius: 51px;
+}
+
+.card {
+  min-width: 7rem;
+  border-radius: 9px;
+  margin: 5px;
+}
+
+.button {
+  background: #271ac1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #09090991;
+  opacity: 1;
+  border-radius: 51px;
+  height: 4rem;
+  width: 250px;
+}
