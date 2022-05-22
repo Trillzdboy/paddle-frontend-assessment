@@ -6,13 +6,13 @@ import {faInstagram, faYoutube, faFacebookF, faLinkedinIn, faTwitter} from '@for
 
 const Footer = () => {
   return (
-    <Container className='text-center text-white mt-5'>
+    <Container className={`${classes.footer_transparency} text-center mt-5`}>
     <ul className={`list-unstyled list-inline`}>
-      <li className={`list-inline-item icon_spacing`}><FontAwesomeIcon icon={faYoutube} /></li>
-      <li className={`list-inline-item icon_spacing`}><FontAwesomeIcon icon={faFacebookF} /></li>
-      <li className={`list-inline-item icon_spacing`}><FontAwesomeIcon icon={faLinkedinIn} /></li>
-      <li className={`list-inline-item icon_spacing`}><FontAwesomeIcon icon={faInstagram} /></li>
-      <li className={`list-inline-item icon_spacing`}><FontAwesomeIcon icon={faTwitter} /></li>
+      <li className={`list-inline-item`}><FontAwesomeIcon icon={faYoutube} /></li>
+      <li className={`list-inline-item`}><FontAwesomeIcon icon={faFacebookF} /></li>
+      <li className={`list-inline-item`}><FontAwesomeIcon icon={faLinkedinIn} /></li>
+      <li className={`list-inline-item`}><FontAwesomeIcon icon={faInstagram} /></li>
+      <li className={`list-inline-item`}><FontAwesomeIcon icon={faTwitter} /></li>
     </ul>
     <div className='mt-4'>
       <span>Terms of services</span>

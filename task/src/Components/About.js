@@ -60,8 +60,6 @@ const About = () => {
           <p>Contact us</p>
         </div>
       </section>
-
-      <Footer />
     </Container>
   );
 };

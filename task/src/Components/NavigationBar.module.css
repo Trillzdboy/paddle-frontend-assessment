@@ -10,3 +10,10 @@
 .height{
     min-height: 150px;
 }
+
+.vertical_align{
+    vertical-align: middle;
+    margin-top: 3%;
+    padding-left: 50px !important;
+    padding-right: 70px !important;
+}

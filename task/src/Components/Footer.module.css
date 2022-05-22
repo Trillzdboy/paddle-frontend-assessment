@@ -6,5 +6,10 @@ li:hover {
 }
 
 span{
-    margin: 4rem;
+    margin: 2rem;
+}
+
+.footer_transparency{
+  color: white;
+  opacity: 0.61;
 }

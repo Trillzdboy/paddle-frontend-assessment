@@ -22,7 +22,7 @@ const Home = () => {
         <input className={classes.name_input} type="text" placeholder="First Name.."/>
         <input className={classes.name_input} type="password" placeholder="Last Name.." />
         <div>
-          <input className={classes.email_input} type="email" placeholder="Enter your email address.." />
+          <input className={`${classes.email_input}`} type="email" placeholder="Enter your email address.." />
           <Button className={classes.button}>JOIN OUR WAITING LIST</Button>
         </div>
       </form>
