@@ -11,13 +11,15 @@ h1 {
   background: transparent;
   margin: 1rem;
   min-width: 220px;
+  max-width: 300px;
   color: white;
 }
 
 .email_input{
     height: 4rem;
-    width: 394px;
+    width: 60%;
     border-radius: 51px;
+    /* margin-left: -20px; */
 }
 
 .card {
@@ -41,4 +43,29 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+}
+
+.email_input_styling{
+  position: relative;
+  margin-top: 1rem;
+}
+
+.email_input_styling_email{
+  display: inline-block;
+}
+
+.email_input_styling_button{
+  display: inline-block;
+  position: absolute;
+  right: 20%;
+}
+
+.email_button{
+  background: #271ac1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #09090991;
+  opacity: 1;
+  border-radius: 51px;
+  height: 4rem;
+  width: 20%;
+  overflow: hidden;
 }
