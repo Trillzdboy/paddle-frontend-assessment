@@ -29,15 +29,15 @@ const App = (props) => {
 
     // console.log(data.items);
     setApiResponse(data.items);
-  }
+  };
 
   const handlePageClick = (pageNum) => {
     // console.log(pageNum.selected);
     fetchNewPage();
-  }
+  };
 
   return (
-    <div>
+    <>
       {apiResponse.map((item) => (
         <List
           name={item.name}
@@ -50,6 +50,7 @@ const App = (props) => {
         />
       ))}
 
+<div className={classes.paginate_block}>
       <ReactPaginate
         previousLabel={'<<'}
         nextLabel={'>>'}
@@ -69,7 +70,8 @@ const App = (props) => {
         breakLinkClassName={classes.breakLink}
         activeClassName={classes.active}
       />
-    </div>
+      </div>
+    </>
   );
 };
 
