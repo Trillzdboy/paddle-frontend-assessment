@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Since the features are less important that quailty code, attention was paid to the naming of component and component styles. That being said, you would get a waring when the app is run. That is just a bootstrap open issue that throws a warning with **eslint**. It is not a problem. It has already been fixed in bootstrap v5.2.0 but i opted not to use that since it is only a beta release.\
 The routing works perfectly too.\
-In the prototype file given, most of the assets included cannot be exported(set by the designer) so you would notice some inconsistencies like in the logo and background image.\
+In the prototype file given, most of the assets included cannot be exported(set by the designer) so you would notice some inconsistencies like in the logo and background image.
 
 ## Things to improve
 
