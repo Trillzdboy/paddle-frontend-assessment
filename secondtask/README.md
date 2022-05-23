@@ -13,8 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Dependencies Used
 
--React-paginate
--React-bootstrap
+- React-paginate
+- React-bootstrap
 
 ###Details
 
