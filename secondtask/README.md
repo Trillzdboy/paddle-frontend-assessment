@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - React-paginate
 - React-bootstrap
 
-###Details
+## Details
 
 As per the instructions given, more emphasis was placed on wiring up the application to get requests when the component is mounted and when the pagination is clicked. I did place the returned items in a card instead of as a list since the information could not be rendered as a list without having overflows(The description cannot be contained in one line.\
 Aside that, not much styling was implemented. If i had more time, things to improve would be:
