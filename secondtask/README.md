@@ -22,3 +22,4 @@ As per the instructions given, more emphasis was placed on wiring up the applica
 Aside that, not much styling was implemented. If i had more time, things to improve would be:
 - Add a loading and error state and render different view depending on conditional statements. ie, If component is loading(Data is being fetched) then show a spinner.
 - Implement a function to automatically scroll back to top after the pagination is clicked.
+- Make the cards responsive on smaller screens.
